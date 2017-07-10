@@ -1,0 +1,43 @@
+<ons-page id="loginPage">
+    <link rel="stylesheet" href="css/login.css">
+    <div id="loginPageContainer">
+    
+    
+        
+        <section class="mobile-wrapper w-section">
+    <div class="bg-gradient page-content" data-scroll="0" id="main-stack">
+      <div class="body padding">
+        <div class="logo-login"></div>
+        <div class="logo-login2"></div>
+        <div class="bottom-section padding">
+          <div class="w-form">
+            <form data-name="Email Form" data-redirect="home.html" id="submit-form" name="email-form" action="#">
+              <div>
+                <input class="input-form light w-input" id="username" maxlength="256"  placeholder="Username" required="required" type="text" value="" autocomplete="off">
+                <div class="separator-fields"></div>
+              </div>
+              <div>
+                <div class="block-input-combined">
+                  <input class="input-form left light w-input" data-name="password" id="password" maxlength="256" name="password" placeholder="Password" required="required" type="password" value="" autocomplete="off"><a class="right-input-link" component="button/forgotPassword">Forgot it?</a>
+                </div>
+                <div class="separator-button-input"></div>
+              </div>
+              <input class="action-button w-button waves-effect" component="button/loginAction" value="Log In" style="background-color:orangered;border-radius:25px;" readonly >
+              <div class="separator-button"></div>
+                <a class="link-upper" data-load="1" > <strong class="b-link">All Rights Reserved</strong> Campus Management International</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="loading-mask page-content stop-loading" id="new-stack">
+      <div class="loading-icon">
+        <div class="icon ion-load-d navbar-button-icon"></div>
+      </div>
+    </div>
+  </section>
+    </div>
+    
+    
+    
+</ons-page>

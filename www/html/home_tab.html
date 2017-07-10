@@ -1,0 +1,23 @@
+
+<ons-page id="homeTabPage">
+    <ons-toolbar>
+        <ons-toolbar-button component="button/menu" style="position:absolute; left: 0px; padding: 13px">
+                 <ons-icon icon="ion-navicon, material:md-menu" size="32px, material:24px"></ons-icon>
+            </ons-toolbar-button>
+        <!--<img src="icons/menu.png"/>-->
+        <div class="left">
+            <!-- Toolbar-button with different icons depending on the platform. -->
+            
+        </div>
+        <div class="center" id="assessorName">Assessor Name</div>
+        <div class="right"> </div>
+    </ons-toolbar>
+    <!-- Auto-positioned Tabbar: top on Android, bottom on iOS/other. -->
+    <ons-tabbar id="myTabbar" position="auto">
+        <ons-tab page="html/home/home_news.html" label="Home" active="true"> </ons-tab>
+        <ons-tab page="html/home/schedule.html" label="Schedule" > </ons-tab>
+        <ons-tab page="html/home/overdue.html" label="Overdue"> </ons-tab>
+        <ons-tab page="html/home/history.html" label="History"> </ons-tab>
+        <ons-tab page="html/home/sync.html" label="Sync"> </ons-tab>
+    </ons-tabbar>
+</ons-page>

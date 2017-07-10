@@ -1,0 +1,100 @@
+<ons-page id="assessorProfilePage">
+    <ons-toolbar>
+        <ons-toolbar-button component="button/menu" style="position:absolute; left: 0px; padding: 10px; font-size:35px">
+            <!--<ons-icon icon="ion-navicon, material:md-back" size="32px, material:24px"></ons-icon>-->
+            <div class="icon ion-ios-close-empty navbar-button-icon"></div>
+        </ons-toolbar-button>
+        <ons-toolbar-button component="button/menu" class="assessorProfileEdit"
+                            style="position:absolute; right: 0px; padding: 10px; font-size:35px">
+            <p style=" 
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: white;
+    padding: 0px;
+">Edit</p>
+
+        </ons-toolbar-button>
+        <div class="left">
+        </div>
+        <div class="center" id="assessorName">Assessor Profile</div>
+        <div class="right"></div>
+    </ons-toolbar>
+    <div id="addressdetails" class="assesorprofile">
+        <div class="row" style="margin: 20px;">
+            <div class="col s4">
+                <a id="locationPusher" href="#!"> <img src="imgs/avatar.png" id="AssessorImage"
+                                                       style="/* align: left; */"> </a>
+            </div>
+            <div class="col s7">
+
+                <div class=" value batchNameValue assessorprofile" id="AssessorName" style="    
+        margin-top: 43px;
+        margin-bottom: -3px;
+        color: #1F76C1;
+    ">Assessor Name
+                </div>
+                <div class=" value batchNameValue assessorprofile" id="AssessorID" style="
+        margin-top: 10px;
+        color: #1F85DE;
+    ">Assessor ID
+                </div>
+            </div>
+        </div>
+        <div id="scheduleDetailsContainer" style="height:95%">
+            <div style="height: 100%; overflow:auto;">
+                <div id="detailsList">
+                    <div class="row">
+                        <div class="col s5 title">Gender</div>
+                        <div class="col s7 value batchNameValue" id="Gender"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col s5 title">ID Type</div>
+                        <div class="col s7 value batchNameValue" id="IDType"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col s5 title">ID Number</div>
+                        <div class="col s7 value batchNameValue" id="IDNumber"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col s5 title">Education Attained</div>
+                        <div class="col s7 value batchNameValue" id="EducationAttained"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col s5 title">Languages</div>
+                        <div class="col s7 value batchNameValue" id="Languages"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col s5 title">Communication Address</div>
+                        <div class="col s7 value batchNameValue" id="Address"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 title">Job Role</div>
+                        <div class="row">
+                        </div>
+                        <div id="SectorList" style="
+    background-color: #eee;
+    border:2px solid #ccc;
+">
+
+                    </div>
+                </div>
+            </div>
+            <div class="histCard">
+                <h3 class="title">Total Assesment</h3>
+            </div>
+            <div class="histDetailsCont">
+                <div class="card">
+                    <h1 id="TotalAssessments2"></h1>
+                    <p>BATCHES ASSESSED</p>
+                </div>
+                <div class="seperator"></div>
+                <div class="card">
+                    <h1 id="TotalAssessedStudents2"></h1>
+                    <p>CANDIDATES ASSESSED</p>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+    </div>
+</ons-page>

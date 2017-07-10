@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.nsdc.smartassessor" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>SDMS Assessor</name>
+    <description>
+        Assessor app for assesssment
+    </description>
+    <author email="sanjay@spintadigital.com" href="http://cordova.io">
+        Spinta digital
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <access launch-external="yes" origin="tel:*" />
+    <access launch-external="yes" origin="mailto:*" />
+    <icon src="res/icon.png" />
+    <!-- <platform name="windows">
+        <icon src="res/windows/icon.png" target="StoreLogo" />
+        <icon src="res/windows/icon.png" target="Square30x30Logo" />
+        <icon src="res/Windows/icon-48.png" target="Square44x44Logo" />
+        <icon src="res/Windows/icon-99.png" target="Square70x70Logo" />
+        <icon src="res/Windows/icon-99.png" target="Square71x71Logo" />
+        <icon src="res/Windows/icon-173.png" target="Square150x150Logo" />
+        <icon src="res/Windows/icon-200.png" target="Square310x310Logo" />
+        <icon src="res/Windows/icon-200.png" target="Wide310x150Logo" />
+    </platform> -->
+    <platform name="wp8">
+        <icon src="res/wp/icon-200.png" width="99" height="99" />
+        <!-- tile image -->
+        <icon src="res/wp/icon-200.png" width="159" height="159" />
+    </platform>
+    <platform name="ios">
+        <!-- iOS 8.0+ -->
+        <!-- iPhone 6 Plus  -->
+        <icon src="res/ios/256x256.png" width="180" height="180" />
+        <!-- iOS 7.0+ -->
+        <!-- iPhone / iPod Touch  -->
+        <icon src="res/ios/64x64.png" width="60" height="60" />
+        <icon src="res/ios/128x128.png" width="120" height="120" />
+        <!-- iPad -->
+        <icon src="res/ios/96x96.png" width="76" height="76" />
+        <icon src="res/ios/128x128.png" width="152" height="152" />
+        <!-- iOS 6.1 -->
+        <!-- Spotlight Icon -->
+        <icon src="res/ios/48x48.png" width="40" height="40" />
+        <icon src="res/ios/96x96.png" width="80" height="80" />
+        <!-- iPhone / iPod Touch -->
+        <icon src="res/ios/64x64.png" width="57" height="57" />
+        <icon src="res/ios/128x128.png" width="114" height="114" />
+        <!-- iPad -->
+        <icon src="res/ios/96x96.png" width="72" height="72" />
+        <icon src="res/ios/128x128.png" width="144" height="144" />
+        <!-- iPhone Spotlight and Settings Icon -->
+        <icon src="res/ios/24x24.png" width="29" height="29" />
+        <icon src="res/ios/64x64.png" width="58" height="58" />
+        <!-- iPad Spotlight and Settings Icon -->
+        <icon src="res/ios/64x64.png" width="50" height="50" />
+        <icon src="res/ios/128x128.png" width="100" height="100" />
+    </platform>
+    <platform name="android">
+        <!--
+            ldpi    : 36x36 px
+            mdpi    : 48x48 px
+            hdpi    : 72x72 px
+            xhdpi   : 96x96 px
+            xxhdpi  : 144x144 px
+            xxxhdpi : 192x192 px
+        -->
+        <icon src="res/android/mipmap-hdpi/ic_launcher.png" density="ldpi" />
+        <icon src="res/android/mipmap-mdpi/ic_launcher.png" density="mdpi" />
+        <icon src="res/android/mipmap-hdpi/ic_launcher.png" density="hdpi" />
+        <icon src="res/android/mipmap-xhdpi/ic_launcher.png" density="xhdpi" />
+        <icon src="res/android/mipmap-xxhdpi/ic_launcher.png" density="xxhdpi" />
+        <icon src="res/android/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
+    </platform>
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-sqlite-storage" spec="~1.4.7" />
+</widget>

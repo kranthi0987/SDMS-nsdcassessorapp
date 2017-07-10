@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.gkcgautam.asset2sd": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "com.phonegap.plugins.fileopener": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-open": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-plugin-android-permissions": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-plugin-backbutton": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-plugin-file-opener2": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-plugin-fileopener": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-plugin-save-image": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        },
+        "org.apache.cordova.home": {
+            "PACKAGE_NAME": "SDMS Assessor"
+        }
+    }
+}

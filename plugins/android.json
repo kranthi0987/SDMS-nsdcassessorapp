@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.gkcgautam.asset2sd": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "com.phonegap.plugins.fileopener": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-open": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-plugin-android-permissions": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-plugin-backbutton": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-plugin-file-opener2": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-plugin-fileopener": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-plugin-save-image": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        },
+        "org.apache.cordova.home": {
+            "PACKAGE_NAME": "com.nsdc.smartassessor"
+        }
+    }
+}

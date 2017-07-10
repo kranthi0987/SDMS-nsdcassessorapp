@@ -1,0 +1,98 @@
+<ons-page id="scheduleDetailsPage">
+
+    <ons-toolbar>
+        <ons-toolbar-button component="button/menu" style="position:absolute; left: 0px; padding: 10px; font-size:35px">
+            <!--<ons-icon icon="ion-navicon, material:md-back" size="32px, material:24px"></ons-icon>-->
+            <div class="icon ion-ios-close-empty navbar-button-icon"></div>
+        </ons-toolbar-button>
+        <div class="left">
+            <!-- Toolbar-button with different icons depending on the platform. -->
+        </div>
+        <div class="center" id="assessorName">Assessment Details</div>
+        <div class="right"> </div>
+    </ons-toolbar>
+    <style>
+        .newSkilling .rplLables{
+            display: none;
+        }
+        .RPL .newSkillLables{
+            display: none;
+        }
+    </style>
+    <div id="scheduleDetailsContainer" style="height:95%">
+        <div style="height: 100%; overflow:auto;">
+
+            <div id="detailsList">
+                <div class="row" style="margin-top: 10px;">
+                    <div class="col s5 title">Batch name</div>
+                    <div class="col s7 value batchNameValue" id="batchnameinass">Value</div>
+                </div>
+                <div class="row">
+                    <div class="col s5 title">Assessment Date</div>
+                    <div class="col s7 value batchNameValue" id="preferredassmentdate">Value</div>
+                </div>
+                <div class="row">
+                    <div class="col s5 title newSkillLables">Training Type</div>
+                    <div id="trainingtype" class="col s5 title rplLables">Project Type</div>
+                    <div class="col s7 value batchNameValue" id="trainingtypevalue">Value</div>
+                </div>
+                <div class="row">
+                    <div class="col s5 title">Sector</div>
+                    <div class="col s7 value batchNameValue" id="sectorname">Value</div>
+                </div>
+                <div class="row">
+                    <div class="col s5 title">Sub Sector</div>
+                    <div class="col s7 value batchNameValue" id="Subsector">Value</div>
+                </div>
+                <div class="row">
+                    <div class="col s5 title">Job Role</div>
+                    <div class="col s7 value batchNameValue" id="jobrole">Value</div>
+                </div>
+                <div class="row">
+                    <div class="col s5 title newSkillLables">TP Name</div>
+                    <div class="col s5 title rplLables">PIA Name</div>
+                    <div class="col s7 value batchNameValue" id="partnername">Value</div>
+                </div>
+                <div class="row">
+                    <div class="col s5 title">TP SPOC</div>
+                    <div class="col s7 value batchNameValue" id="spocname">Value</div>
+                </div>
+            </div>
+            <div id="addressdetails" style="margin-top: 27px;" >
+                <h4 class="newSkillLables" >Training Center Details</h4>
+                <h4 class="rplLables">Training Location Details</h4>
+                <div class="row">
+                    <div class="col s8">
+                        <p id="tcname"></p>
+                        <p id="tcaddress"></p>
+                        <p >india</p>
+                    </div>
+                    <div class="col s4">
+
+                        <a id="locationPusher" href="geo:38.897096,-77.036545" >
+                            <img src="imgs/map_button.png" id="mapIcon">
+                        </a>
+                        <!--
+
+
+                          <a  href="geo:38.897096,-77.036545" class="waves-effect waves-circle waves-light btn-floating secondary-content">
+                            <ons-icon icon="md-directions" modifier="material" class="ons-icon zmdi zmdi-directions navigate" _compiled=""></ons-icon>
+                          </a>
+    -->
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row actions">
+            <div class="col s6 waves-effect" id = "stopAssessment">End Assessment</div>
+            <div class="col s6 waves-effect border take" style="border-right-width:0px" id = "startAssessment">Start Assessment</div>
+        </div>
+
+
+    </div>
+
+</ons-page>

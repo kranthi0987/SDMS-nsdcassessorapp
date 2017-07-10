@@ -1,0 +1,81 @@
+<ons-page id="formPage">
+  <ons-toolbar>
+    <div class="left"><ons-back-button>Back</ons-back-button></div>
+    <div class="center">Form</div>
+    <div class="right">
+    </div>
+  </ons-toolbar>
+
+  <ons-list>
+    <ons-list-header>Login Details</ons-list-header>
+    <ons-list-item modifier="nodivider">
+      <div class="center">
+        <ons-input id="userName-input" type="text" placeholder="UserName" float></ons-input>
+      </div>
+    </ons-list-item>
+    <ons-list-item modifier="nodivider">
+      <div class="center">
+        <ons-input id="password-input" type="password" placeholder="Password" float></ons-input>
+      </div>
+    </ons-list-item>
+  </ons-list>
+
+  <ons-list>
+    <ons-list-header>Station Details</ons-list-header>
+      
+    <ons-list-item modifier="nodivider">
+      <div class="center">
+          <ons-input component="input/journeyDateReal" type="date" placeholder="Journey date" ng-model="inputDate" float></ons-input>
+        <!--<input type="date" class="text-input" ng-model="inputDate"/>-->
+      </div>
+    </ons-list-item>
+    <ons-list-item modifier="nodivider">
+      <div class="center">
+        <p style="display: block; width: 100%; " component="button/fromTrain">From: <span></span> <ons-icon style="float:right; color: grey; padding-left: 4px" icon="ion-chevron-right"></ons-icon>
+          <input type="text" id="fromStation" class="text-input" style="display:none"/>
+          </p>
+      </div>
+    </ons-list-item>
+    <ons-list-item modifier="nodivider">
+      <div class="center">
+        <p style="display: block; width: 100%; " component="button/toTrain">To: <span></span> <ons-icon style="float:right; color: grey; padding-left: 4px" icon="ion-chevron-right"></ons-icon>
+          
+          <input type="text" id="toStation" class="text-input"  style="display:none"/>
+          </p>
+      </div>
+    </ons-list-item>
+    <ons-list-item modifier="nodivider">
+      <div class="center">
+        <p style="display: block; width: 100%; " component="button/toTrain">To: <span></span> <ons-icon style="float:right; color: grey; padding-left: 4px" icon="ion-chevron-right"></ons-icon>
+          
+          <input type="text" id="toStation" class="text-input"  style="display:none"/>
+          </p>
+      </div>
+    </ons-list-item>
+    <ons-list-item>
+      <ons-row>
+        <ons-col><ons-input component="trainNumber" type="number" placeholder="Train number" float></ons-input></ons-col>
+        <ons-col>
+            <select component="class">
+                <option value="SL" checked="checked">SL</option>
+                <option value="1A">1A</option>
+                <option value="2A">2A</option>
+                <option value="3A">3A</option>
+                <option value="2S">2S</option>
+                <option value="CC">CC</option>
+                <option value="FC">FC</option>
+            </select>  
+        </ons-col>
+      </ons-row>
+    </ons-list-item>
+  </ons-list>
+    
+  <ons-list>
+     <ons-list-header>Passenger Details
+         <ons-button modifier="quiet" style="float:right; ">Add</ons-button>
+     </ons-list-header>
+  </ons-list>
+    
+  <ons-button modifier="large" component="button/saveTask" id="saveForm">Save</ons-button>
+  
+</ons-page>

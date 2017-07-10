@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.gkcgautam.asset2sd": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "com.phonegap.plugins.fileopener": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-open": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-plugin-android-permissions": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-plugin-backbutton": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-plugin-file-opener2": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-plugin-fileopener": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-plugin-save-image": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        },
+        "org.apache.cordova.home": {
+            "PACKAGE_NAME": "{1123c690-ec68-11e6-b7ee-d919ba4e2566}"
+        }
+    }
+}

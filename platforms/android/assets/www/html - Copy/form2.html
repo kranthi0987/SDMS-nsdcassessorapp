@@ -1,0 +1,71 @@
+<ons-page id="formPage">
+    <ons-toolbar>
+        <div class="left">
+            <ons-back-button>Back</ons-back-button>
+        </div>
+        <div class="center">New Form</div>
+        <div class="right">
+            <ons-if platform="android">
+                <ons-toolbar-button component="button/save-task">
+                    <ons-icon icon="md-save"></ons-icon>
+                </ons-toolbar-button>
+            </ons-if>
+        </div>
+    </ons-toolbar>
+
+    <ons-list style="height: 40%; background-color: #1eaaf1;">
+        <ons-list-item modifier="nodivider" style="background-color: #1eaaf1;">
+            <ons-row id="loginDetails">
+                <ons-col >
+                    <ons-input id="title-input" type="text" placeholder="Username" float></ons-input>
+                </ons-col>
+                <ons-col>
+                    <ons-input id="title-input" type="password" placeholder="password" float></ons-input>
+                </ons-col>
+            </ons-row>
+        </ons-list-item>
+        <ons-list-item modifier="nodivider" style="background-color: #1eaaf1;">
+            <ons-row id="trainDetails">
+                <ons-col component="button/fromTrain">
+                    <p id="fromTopLable"></p>
+                    <div><span>From Train</span>
+                    <ons-icon style="float:right; color: white; padding: 4px; position: absolute; right: 12px;" icon="ion-chevron-right"></ons-icon></div>
+                    <!--<ons-input id="from-input" type="text" placeholder="from Train" ></ons-input>-->
+                </ons-col>
+                <ons-col component="button/toTrain">
+                    <p id="toTopLable"></p>
+                    <div><span>To Train</span>
+                    <ons-icon style="float:right; color: white; padding: 4px; position: absolute; right: 12px;" icon="ion-chevron-right"></ons-icon></div>
+                    <!--<ons-input id="to-input" type="password" placeholder="to  Train" float></ons-input>-->
+                </ons-col>
+            </ons-row>
+        </ons-list-item>
+        <ons-list-item modifier="nodivider" style="background-color: #1eaaf1;">
+            <ons-row id="loginDetails">
+                <ons-col style="width: 50%" >
+                    <ons-input component="input/journeyDateReal" type="date" placeholder="Journey date" ng-model="inputDate" float></ons-input>
+                </ons-col>
+                <ons-col>
+                    <ons-button modifier="material">Search Train</ons-button>
+                </ons-col>
+            </ons-row>
+        </ons-list-item>
+    </ons-list>
+    <ons-list>
+        <ons-list-item modifier="nodivider" style="position:absolute; height: 60%;">
+            <div class="center">
+                <ons-tabbar  id="myTabbar" position="auto">
+                    <ons-tab  page="html/passenger.html" label="Passengers" active>
+                    </ons-tab>
+                    <ons-tab  page="html/other.html" label="Other">
+                    </ons-tab>
+                    <ons-tab  page="html/payments.html" label="Payment">
+                    </ons-tab>
+                </ons-tabbar>
+            </div>
+        </ons-list-item>
+    </ons-list>
+
+
+
+</ons-page>

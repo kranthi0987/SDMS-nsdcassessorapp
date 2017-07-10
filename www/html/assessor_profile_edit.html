@@ -1,0 +1,161 @@
+<ons-page id="assessorProfilePageEdit">
+    <ons-toolbar>
+        <ons-toolbar-button component="button/menu" style="position:absolute; left: 0px; padding: 10px; font-size:35px">
+            <!--<ons-icon icon="ion-navicon, material:md-back" size="32px, material:24px"></ons-icon>-->
+            <div class="icon ion-ios-close-empty navbar-button-icon"></div>
+        </ons-toolbar-button>
+        <ons-toolbar-button component="button/menu" id="saveAssessor"
+                            style="position:absolute; right: 0px; padding: 10px; font-size:35px">
+            <p style=" 
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: white;
+    padding: 0px;
+">Save</p>
+            <!--<ons-icon icon="ion-navicon, material:md-back" size="32px, material:24px"></ons-icon>-->
+            <!--<div class="icon ion-ios-close-empty navbar-button-icon"></div>-->
+        </ons-toolbar-button>
+        <div class="left">
+            <!-- Toolbar-button with different icons depending on the platform. -->
+        </div>
+        <div class="center" id="assessorName">Assessor Profile</div>
+        <div class="right"></div>
+    </ons-toolbar>
+    <div id="addressdetails" class="assesorprofile">
+        <div class="row" style="margin: 20px;">
+            <div class="col s4">
+                <a id="locationPusher" href="#!"> <img class="AssessorImageEdit" src="imgs/avatar.png" id="mapIcon"
+                                                       style="/* align: left; */"> </a>
+            </div>
+            <div class="col s7 value batchNameValue assessorprofile" id="ChangePicture" style="    
+    margin-top: 43px;
+    margin-bottom: -3px;
+    color: #1F76C1;
+">Change Picture
+            </div>
+
+        </div>
+        <div id="scheduleDetailsContainer" style="">
+            <div style="">
+                <div id="detailsList">
+                    <div class="row">
+                        <div class="col s5 title">Gender</div>
+                        <div class="col s7 value batchNameValue" id="">
+                            <select id="genderOptions" class="col s7 value batchNameValue">
+                                <option value="0" disabled selected>Select one</option>
+                                <option value="1">Female</option>
+                                <option value="2">Male</option>
+                                <option value="3">Transgender</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s5 title">ID Type</div>
+                        <div class="col s7 value batchNameValue" id="">
+                            <select id="proofOptions" class="col s7 value batchNameValue">
+                                <option value="0" disabled selected>Select one</option>
+                                <option value="693" id="aadharcard">Aadhaar</option>
+                                <option value="694" id="pan">PAN card</option>
+                                <option value="695" id="voter">Voter Id</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s5 title">ID Number</div>
+                        <div class="col s7 value batchNameValue" id="">
+                            <input class="text-input--material"  id="IDNumber" placeholder="ID Number" type="text"
+                                   required /></div>
+                    </div>
+                    <div class="row">
+                        <div class="col s5 title">Education Attained</div>
+                        <div class="col s7 value batchNameValue" id="">
+                            <select id="eduOptions" class="col s7 value batchNameValue">
+                                <option value="0" disabled selected>Select one</option>
+                                <option value="978">11th to 12th</option>
+                                <option value="979">5th to 8th</option>
+                                <option value="980">9th to 10th</option>
+                                <option value="981">Diploma</option>
+                                <option value="982">Graduate</option>
+                                <option value="983">ITI</option>
+                                <option value="984">Polytechnic</option>
+                                <option value="985">Post Graduate</option>
+                                <option value="986">Un Educated</option>
+                                <option value="987">Under Graduate</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s5 title">Languages</div>
+                        <div class="col s7 value batchNameValue" id="">
+                            <select id="langOptions" class="col s7 value batchNameValue" multiple="multiple">
+                                <option value="0" disabled selected>Select one</option>
+                                <option value="Hindi">Hindi</option>
+                                <option value="Telugu">Telugu</option>
+                                <option value="Tamil">Tamil</option>
+                                <option value="kanada">kanada</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s5 title">Address line</div>
+                        <div class="col s7 value batchNameValue" id="">
+                            <input id="AddressLine" class="text-input--material" placeholder="Address line" type="text"
+                                   disabled></div>
+                    </div>
+                    <div class="row">
+                        <div class="col s5 title">Pincode</div>
+                        <div class="col s7 value batchNameValue" id="">
+                            <input id="Pincode" class="text-input--material" placeholder="Pincode" type="number"
+                                   required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s5 title">Locality</div>
+                        <div class="col s7 value batchNameValue" id="">
+                            <select id="SubDistrictOptions" class="col s7 value batchNameValue" disabled>
+                                <option value="0" disabled selected>Select one</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s5 title">District</div>
+                        <div class="col s7 value batchNameValue" id="">
+                            <select id="districtOptions" class="col s7 value batchNameValue" disabled>
+                                <option value="0" disabled selected>Select one</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s5 title">State</div>
+                        <div class="col s7 value batchNameValue" id="">
+                            <select id="stateOptions" class="col s7 value batchNameValue" disabled>
+                                <option value="0" disabled selected>Select one</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col s5 title">Village/town/City</div>
+                        <div class="col s7 value batchNameValue" id="">
+
+                            <input id="CityVillage" class="text-input--material" placeholder="City/Village" type="text"
+                                   disabled></div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        div#addressdetails {
+            /* margin-bottom: -10px; */
+            height: 100%;
+            overflow: auto;
+        }
+    </style>
+</ons-page>
